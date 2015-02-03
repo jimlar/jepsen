@@ -46,6 +46,10 @@
                           :exclusions [com.google.guava/guava]]]
                         :source-paths ["rabbitmq/src"]
                         :test-paths ["rabbitmq/test"]}
+             :qpid {:dependencies
+                    [[com.novemberain/langohr "2.7.1" :exclusions [com.google.guava/guava]]]
+                    :source-paths ["qpid/src"]
+                    :test-paths ["qpid/test"]}
              :etcd {:dependencies
                     [[verschlimmbesserung "0.1.1"]]
                     :source-paths ["etcd/src"]
